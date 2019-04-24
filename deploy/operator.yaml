@@ -15,8 +15,7 @@ spec:
       serviceAccountName: tex-operator
       containers:
         - name: tex-operator
-          # Replace this with the built image name
-          image: REPLACE_IMAGE
+          image: infonova/tex-operator:latest
           command:
           - tex-operator
           imagePullPolicy: Always

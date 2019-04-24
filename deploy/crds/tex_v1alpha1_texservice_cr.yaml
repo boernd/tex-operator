@@ -1,0 +1,7 @@
+apiVersion: tex.bearingpoint.com/v1alpha1
+kind: TexService
+metadata:
+  name: tex2
+spec:
+  # Add fields here
+  size: 3
