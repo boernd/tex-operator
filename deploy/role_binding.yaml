@@ -1,0 +1,11 @@
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: tex-operator
+subjects:
+- kind: ServiceAccount
+  name: tex-operator
+roleRef:
+  kind: Role
+  name: tex-operator
+  apiGroup: rbac.authorization.k8s.io
